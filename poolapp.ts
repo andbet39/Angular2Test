@@ -13,7 +13,8 @@ import {PoolStore,Pool,PoolOption} from 'services/poolstore';
     <h1>{{pool.title}}</h1>
          <ul>
            <li *for="#pool_option of pool.options">
-               {{pool_option.title}} <button (click)="addVote(pool_option)">{{pool_option.vote}}</button></li>
+               {{pool_option.title}} <button (click)="addVote(pool_option)">{{pool_option.vote}}</button>
+            </li>
          <ul>  
     `
     ,
